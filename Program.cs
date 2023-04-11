@@ -18,7 +18,6 @@
             while (tries < chances)
             {
                 Console.WriteLine("Digite um número até 20:");
-                Console.WriteLine(secretnumber);
 
                 if (int.TryParse(Console.ReadLine(), out guess))
                 {
