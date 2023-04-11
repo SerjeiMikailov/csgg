@@ -9,7 +9,7 @@
             Random randomic = new Random();
             int random_number = randomic.Next(1, 21);
             int secretnumber = random_number;
-            int limit = 21;
+            int limit = 20;
             int minimum = 0;
             int guess;
             int chances = 5;
